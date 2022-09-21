@@ -1,11 +1,11 @@
-class userName{
+class User {
     private userName: string;
     private password: string;
 
-    constructor(userName: string, password: string){
+    constructor(userName: string, password: string) {
         this.userName = userName;
         this.password = password;
     }
 }
 
-export { userName }
+export { User }
